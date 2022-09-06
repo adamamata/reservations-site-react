@@ -57,7 +57,7 @@ const ResponsiveAppBar = () => {
               onClick={handleOpenNavMenu}
               color="inherit"
             >
-              <MenuIcon />
+              <MenuIcon color='primary'/>
             </IconButton>
             <Menu
               id="menu-appbar"
@@ -96,7 +96,13 @@ const ResponsiveAppBar = () => {
                 <Link style={{textDecoration: 'none', color: 'black'}} to={`/${page}`}>{page}</Link>
               </Button>
             ))}
-          </Box>
+            </Box>
+            <Button 
+            sx={{ my: 2, color: 'white', display: 'flex', background: '#757ce8' }}
+            onClick={handleCloseNavMenu}
+            >
+              <Link to='/list' style={{textDecoration: 'none', color:'white'}}>LIST YOUR HOME</Link>
+            </Button>
         </Toolbar>
       </Container>
     </AppBar>

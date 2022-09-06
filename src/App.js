@@ -7,6 +7,7 @@ import Deals from './pages/Deals/Deals';
 import Contact from './pages/Contact/Contact';
 import Navbar from './components/Navbar/Navbar';
 import { motion } from 'framer-motion';
+import ListHome from './pages/ListHome/ListHome';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path='/accomodation' element={<Accomodation/>}/>
         <Route path='/deals' element={<Deals/>}/>
         <Route path='/contact' element={<Contact/>}/>
+        <Route path='/list' element={<ListHome/>} />
       </Routes>
     </div>
   );
