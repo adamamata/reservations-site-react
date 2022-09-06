@@ -17,8 +17,8 @@ function App() {
     </motion.div>
       <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route path='/activities' element={<Activities/>}/>
         <Route path='/accomodation' element={<Accomodation/>}/>
+        <Route path='/activities' element={<Activities/>}/>
         <Route path='/deals' element={<Deals/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/list' element={<ListHome/>} />

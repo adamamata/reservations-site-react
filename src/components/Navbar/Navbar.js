@@ -12,7 +12,7 @@ import MenuItem from '@mui/material/MenuItem';
 import { Link } from 'react-router-dom';
 import HomeIcon from '@mui/icons-material/Home';
 
-const pages = ['Activities', 'Accomodation', 'Deals', 'Contact'];
+const pages = ['Accomodation', 'Activities', 'Deals', 'Contact'];
 
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -27,7 +27,7 @@ const ResponsiveAppBar = () => {
 
 
   return (
-    <AppBar position="static" style={{background: 'transparent'}}>
+    <AppBar position="fixed" style={{background: 'white'}}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography
