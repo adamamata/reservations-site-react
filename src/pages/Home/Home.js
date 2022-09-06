@@ -9,7 +9,7 @@ function Home() {
     initial={{y:50}}
     animate={{y:0}}
     >
-      <h1>Find Your Holiday Home</h1>
+      <h1>Find the perfect venue.</h1>
       <Searchbar/>
     </motion.div> 
   )

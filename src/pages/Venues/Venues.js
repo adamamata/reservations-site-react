@@ -1,7 +1,6 @@
 import React from 'react'
 
-
-function Activities() {
+function Venues() {
   return (
     <div>
 
@@ -9,4 +8,4 @@ function Activities() {
   )
 }
 
-export default Activities
+export default Venues;

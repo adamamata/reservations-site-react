@@ -12,7 +12,7 @@ import MenuItem from '@mui/material/MenuItem';
 import { Link } from 'react-router-dom';
 import HomeIcon from '@mui/icons-material/Home';
 
-const pages = ['Accomodation', 'Activities', 'Deals', 'Contact'];
+const pages = ['venues', 'deals', 'contact'];
 
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -24,7 +24,6 @@ const ResponsiveAppBar = () => {
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
   };
-
 
   return (
     <AppBar position="fixed" style={{background: 'white'}}>
@@ -101,11 +100,12 @@ const ResponsiveAppBar = () => {
             sx={{ my: 2, color: 'white', display: 'flex', background: '#757ce8' }}
             onClick={handleCloseNavMenu}
             >
-              <Link to='/list' style={{textDecoration: 'none', color:'white'}}>LIST YOUR HOME</Link>
+              <Link to='/list' style={{textDecoration: 'none', color:'white'}}>LIST YOUR VENUE</Link>
             </Button>
         </Toolbar>
       </Container>
     </AppBar>
   );
 };
+
 export default ResponsiveAppBar;
