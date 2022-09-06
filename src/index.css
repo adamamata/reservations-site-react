@@ -23,7 +23,7 @@ code {
 .Home > h1 {
   font-family: 'Poppins', sans-serif;
   font-size: 5em;
-  text-align: center;
+  text-align: left;
   margin-top: 1.5em;
   width: 50vw;
 }
