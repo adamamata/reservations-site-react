@@ -6,11 +6,14 @@ import Accomodation from './pages/Accomodation/Accomodation';
 import Deals from './pages/Deals/Deals';
 import Contact from './pages/Contact/Contact';
 import Navbar from './components/Navbar/Navbar';
+import { motion } from 'framer-motion';
 
 function App() {
   return (
     <div className="App">
-    <Navbar/>
+    <motion.div initial={{y: -50}} animate={{y:0}}>
+      <Navbar/>
+    </motion.div>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/activities' element={<Activities/>}/>
