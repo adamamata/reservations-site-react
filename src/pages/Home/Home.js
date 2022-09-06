@@ -1,5 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion';
+import Searchbar from '../../components/Searchbar/Searchbar';
 
 function Home() {
   return (
@@ -9,6 +10,7 @@ function Home() {
     animate={{y:0}}
     >
       <h1>Find Your Holiday Home</h1>
+      <Searchbar/>
     </motion.div> 
   )
 }
