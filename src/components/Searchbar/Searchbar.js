@@ -24,7 +24,7 @@ function Searchbar() {
                 <MenuItem value="Type2">Type2</MenuItem>
               </Select>
             </FormControl>
-            <Button type='submit' sx={{ my: 2, color: 'white', display: 'flex', background: '#757ce8', height: '4em' }}>Search</Button>
+            <Button type='submit' sx={{ my: 2, color: 'white', display: 'flex', background: '#757ce8', height: '4em', '&:hover': {color: 'black'}}}>Search</Button>
         </form>
     </div>
   )
